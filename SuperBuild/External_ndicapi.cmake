@@ -29,7 +29,7 @@ IF(ndicapi_DIR)
 
   SET(PLUS_ndicapi_DIR ${ndicapi_DIR} CACHE INTERNAL "Path to store ndicapi binaries")
 ELSE()
-  SET(ndicapi_REPOSITORY https://github.com/PlusToolkit/ndicapi.git)
+  SET(ndicapi_REPOSITORY https://github.com/matemus960/ndicapi.git)
 
   MESSAGE(STATUS "Downloading ndicapi from: ${ndicapi_REPOSITORY}")
 

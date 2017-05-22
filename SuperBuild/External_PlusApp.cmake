@@ -15,7 +15,7 @@ ExternalProject_Add(PlusApp
   SOURCE_DIR "${PLUS_PLUSAPP_DIR}" 
   BINARY_DIR "${PLUSAPP_DIR}"
   #--Download step--------------
-  GIT_REPOSITORY "${GIT_PROTOCOL}://github.com/PlusToolkit/PlusApp.git"
+  GIT_REPOSITORY "${GIT_PROTOCOL}://github.com/matemus960/PlusApp.git"
   GIT_TAG ${PLUSAPP_GIT_REVISION}
   #--Configure step-------------
   CMAKE_ARGS 
